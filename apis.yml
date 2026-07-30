@@ -1,7 +1,18 @@
 aid: lucis
 name: Lucis
-description: Lucis is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lucis is a Paris-based, AI-powered preventative health platform (Y Combinator
+  P25; backed by General Catalyst) that helps members understand their biology
+  through comprehensive lab testing and personalised coaching. Members receive
+  two annual lab assessments (blood, urine, and saliva) at 450+ partner labs
+  across Europe, producing 110+ data points across 11 body systems — metabolic,
+  cardiovascular, hormonal, nervous, and more — which an AI engine turns into
+  personalised action plans spanning nutrition, supplementation, sleep,
+  activity, and mental health. The platform ingests wearable data (Garmin,
+  Withings, Oura, Strava; Apple Watch and Whoop coming soon) for ongoing
+  monitoring. Lucis is a consumer health product; as of this profile it exposes
+  a member web/mobile application and a compliance portal but publishes no
+  public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/lucis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,59 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.lucis.life/assets/seo/lucis-opengraph-en.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Preventative Health
+- Longevity
+- Biomarkers
+- Blood Testing
+- Wearables
+- Artificial Intelligence
+- Consumer Health
+- Digital Health
 apis: []
+common:
+- type: Website
+  url: https://www.lucis.life
+- type: SignUp
+  url: https://app.lucis.life/register
+- type: Login
+  url: https://app.lucis.life/signin
+- type: Blog
+  url: https://www.lucis.life/en/blog
+- type: Support
+  url: https://faq.lucis.life/
+- type: PrivacyPolicy
+  url: https://www.lucis.life/legal/en/privacy
+- type: TermsOfService
+  url: https://www.lucis.life/legal/en/terms
+- type: TrustCenter
+  url: https://compliance.lucis.life
+- type: DomainSecurity
+  url: security/lucis-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
